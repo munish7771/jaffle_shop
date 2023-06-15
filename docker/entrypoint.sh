@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 
-dbt seed --profiles-dir ./docker
-dbt run --profiles-dir ./docker
+dbt seed --profiles-dir .
+dbt run --profiles-dir .
