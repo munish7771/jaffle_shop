@@ -6,7 +6,7 @@ jaffle_shop:
     default:
       type: postgres
       threads: 1
-      host: postgres
+      host: 0.0.0.0
       port: 5432
       user: postgres
       pass: password
