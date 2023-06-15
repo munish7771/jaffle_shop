@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   dbt:
-    image: fishtownanalytics/dbt:0.21.0
+    image: article1dataops/dbt:latest
     depends_on:
       - postgres
     volumes:
